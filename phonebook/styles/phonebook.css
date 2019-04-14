@@ -1,0 +1,131 @@
+body {
+    margin:0px;
+    background: #808080;
+}
+
+.container {
+    position:relative;
+    width:960px;
+    margin:auto;
+}
+
+.title {
+    padding:10px;
+    border-bottom:2px solid #ffffff;
+
+}
+
+.title h1 {
+    margin:0px;
+    font-family:times new roman;
+    text-align: center;
+    color: #32CD32;
+    
+}
+
+.quickadd {
+    padding-top: 20px;
+    
+    
+}
+
+#QuickAdd {
+    width: 50px;
+    padding:8px;
+    background-color:   #32CD32 ;
+    text-shadow:0px 0px 1px;
+    color: white;
+}
+
+.quickaddForm {
+    height:300px;
+    padding:10px;
+    overflow:hidden;
+    display:none;
+    margin: auto;
+
+}
+
+.quickaddForm label {
+    float: left;
+    display:block;
+    width:250px;
+    height:10px;
+    font-family:sans-serif;
+    font-size:px;
+    padding:10px;
+    color: white;
+}
+
+.quickaddForm input,textarea {
+    
+    width:50%;
+    padding:10px;
+    margin-bottom: 20px;
+    font-weight:bold;
+    border-radius:5px;
+    box-shadow:inset 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+#Add,#Cancel {
+    padding:10px;
+    margin:20px;
+    position:relative;
+    left:300px;
+    background:  #32CD32;
+    border-radius:5px;
+    font-weight:bold;
+    color: white;
+}
+
+.entry {
+    background:rgb(230,230,230);
+    width:960px;
+    height:40px;
+    border-bottom:1px solid;
+}
+
+
+.entry .name {
+    width:130px;
+    float:left;
+    padding:11px;
+}
+
+.entry .email {
+    width:200px;
+    float:left;
+    padding:11px;
+}
+
+
+.entry .phone {
+    width:100px;
+    float:left;
+    padding:11px;
+}
+del {
+    
+    width:40px;
+    float:left;
+    
+}
+
+.entry p {
+    margin:0px;
+    font-family:sans-serif;
+    font-size:12px;
+    text-shadow:0px 0px 1px rgba(0,0,0,0.4);
+}
+
+.entry .del a {
+    font-family:sans-serif;
+    color:#ffffff;
+    font-size:12px;
+    padding:10px;
+    background:rgb(255,100,100);
+    border-radius:8px;
+    text-decoration:none;
+    margin-top: 10px;
+
+}
